@@ -28,9 +28,7 @@ VollMed es una API REST desarrollada con Spring Boot que gestiona pacientes y m�
 - **`src/main/java/med/voll/api`**: Contiene el código fuente de la API, dividido en:
   - **`controller`**: Controladores REST que manejan las solicitudes HTTP.
   - **`domain`**: Modelos de datos y servicios relacionados.
-  - **`repository`**: Repositorios para el acceso a datos.
-  - **`service`**: Servicios que contienen la lógica de negocio.
-  - **`config`**: Configuración de la aplicación.
+  - **`infra`**: Implementaciones de acceso a datos y configuración adicional.
 - **`src/main/resources`**: Archivos de configuración, incluyendo:
   - **`application.properties`**: Configuración de la base de datos y propiedades de la aplicación.
 - **`src/test/java/med/voll/api`**: Contiene pruebas unitarias y de integración.
@@ -49,7 +47,12 @@ VollMed es una API REST desarrollada con Spring Boot que gestiona pacientes y m�
 - **Spring Boot**: 🚀 Framework para construir la API REST.
 - **Maven**: 📦 Sistema de gestión de proyectos y dependencias.
 - **MySQL**: 🗄️ Sistema de gestión de bases de datos.
+- **JWT**: 🔐 Mecanismo de autenticación basado en tokens.
 - **JUnit**: 🧪 Herramienta para pruebas unitarias.
+
+## 🔧 Pruebas
+
+Para probar la API REST, puedes utilizar herramientas como [Insomnia](https://insomnia.rest) o [Postman](https://www.postman.com). Asegúrate de autenticarte utilizando un token JWT válido para realizar operaciones que requieran autenticación, como crear, actualizar o eliminar tópicos.
 
 <p align="center">
   Alura + ONE | VollMed
